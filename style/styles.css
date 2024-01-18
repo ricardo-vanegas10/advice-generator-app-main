@@ -1,0 +1,44 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+
+
+#main{
+    background-color: hsl(218, 23%, 16%);
+    
+}
+
+#container, #spacing, #btn{
+    background-color: hsl(217, 19%, 24%);
+    font-family: 'Manrope', sans-serif;
+    
+
+}
+
+#btn{
+    overflow: visible;
+
+}
+
+
+
+#btn button{
+    background-color: hsl(150, 100%, 66%);
+
+
+}
+
+#btn button:hover{
+    filter: brightness(1.2);
+    box-shadow: 0 0 15px rgba(52, 219, 155, 1);
+}
+
+#title, #Idnumber{
+    letter-spacing: 4px;
+    color: hsl(150, 100%, 66%);
+    font-size: 0.7rem;
+}
+
+#advice{
+    color: hsl(193, 38%, 86%);
+}
